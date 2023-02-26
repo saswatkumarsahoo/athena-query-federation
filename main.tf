@@ -20,7 +20,7 @@ resource "aws_serverlessapplicationrepository_cloudformation_stack" "athena-dyna
     AthenaCatalogName = var.athena_catalog_name
     SpillBucket       = aws_s3_bucket.athena-spill-bucket.id
     SpillPrefix       = "dynamodb"
-    LambdaMemory      = 384
+    LambdaMemory      = 512
     LambdaTimeout     = 900
   }
 }
