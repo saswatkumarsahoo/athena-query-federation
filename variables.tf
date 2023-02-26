@@ -1,4 +1,4 @@
-variable "AthenaCatalogName" {
+variable "athena_catalog_name" {
   default = "athena-dynamodb-catalog"
 }
 

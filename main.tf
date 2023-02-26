@@ -17,7 +17,7 @@ resource "aws_serverlessapplicationrepository_cloudformation_stack" "athena-dyna
     "CAPABILITY_RESOURCE_POLICY",
   ]
   parameters = {
-    AthenaCatalogName = var.AthenaCatalogName
+    AthenaCatalogName = var.athena_catalog_name
     SpillBucket       = aws_s3_bucket.athena-spill-bucket.id
     SpillPrefix       = "dynamodb"
     LambdaMemory      = 384
@@ -37,7 +37,7 @@ resource "aws_athena_data_catalog" "dyanmodb-catalog" {
   type        = "LAMBDA"
 
   parameters = {
-    "function" = "arn:aws:lambda:eu-west-1:${local.account_id}:function:${var.AthenaCatalogName}"
+    "function" = "arn:aws:lambda:eu-west-1:${local.account_id}:function:${var.athena_catalog_name}"
   }
 
 }
