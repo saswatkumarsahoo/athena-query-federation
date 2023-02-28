@@ -38,5 +38,4 @@ No modules.
 
 No outputs.
 <!-- END_TF_DOCS -->
-## Footer
-Contributor Names
+
