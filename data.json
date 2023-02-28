@@ -1,0 +1,58 @@
+{
+    "item1": {
+        "year": {
+            "S": "2013"
+        },
+        "title": {
+            "S": "Gravity"
+        },
+        "num_votes": {
+            "N": "15"
+        },
+        "total_stars": {
+            "N": "70"
+        }
+    },
+    "item2": {
+        "year": {
+            "S": "2013"
+        },
+        "title": {
+            "S": "Insidious: Chapter 2"
+        },
+        "num_votes": {
+            "N": "48"
+        },
+        "total_stars": {
+            "N": "198"
+        }
+    },
+    "item3": {
+        "year": {
+            "S": "2013"
+        },
+        "title": {
+            "S": "Now You See Me"
+        },
+        "num_votes": {
+            "N": "17"
+        },
+        "total_stars": {
+            "N": "74"
+        }
+    },
+    "item4": {
+        "year": {
+            "S": "2014"
+        },
+        "title": {
+            "S": "Transformers: Age of Extinction"
+        },
+        "num_votes": {
+            "N": "90"
+        },
+        "total_stars": {
+            "N": "326"
+        }
+    }
+}
