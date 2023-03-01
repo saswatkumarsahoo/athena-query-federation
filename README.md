@@ -2,8 +2,8 @@
 This is an example terraform project to set up athena query federation usong dynamodb connector
 ## How to run
 ### Pre-requisites
-* terraform tool
-* aws profile
+* [terraform tool](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+* [aws profile](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html)
 
 ### Clone and Run
 Clone this repo to your local directory and run the below commands from the root directory of this project
