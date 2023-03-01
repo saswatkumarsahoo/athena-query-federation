@@ -1,10 +1,19 @@
 # athena-query-federation 
 This is an example terraform project to set up athena query federation usong dynamodb connector
+## How to run
+### Pre-requisites
+* terraform tool
+* aws profile
+
+### Clone and Run
+Clone this repo to your local directory and run the below commands from the root directory of this project
+
+```
+terraform plan
+terrfaorm apply
+```
+
 <!-- BEGIN_TF_DOCS -->
-## Requirements
-
-No requirements.
-
 ## Providers
 
 | Name | Version |
